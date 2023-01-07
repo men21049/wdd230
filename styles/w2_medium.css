@@ -1,0 +1,28 @@
+@media only screen and (min-width: 37.5em){
+    body{
+        max-width: 740px;
+        margin:auto;
+        text-align: center;
+    }
+
+    main {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+          "card1 card2"
+          "card3 ."; 
+        grid-gap: 10px;
+    }  
+
+    main{
+        margin:10px auto;
+        width: 640px;
+      } 
+
+    img{
+        width: 80%;
+        height: 80%;
+    }
+
+}

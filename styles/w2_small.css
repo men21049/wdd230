@@ -1,0 +1,78 @@
+body{
+  max-width:420px;
+  margin:auto;
+  text-align: center;
+}
+
+header {
+border-radius: 10px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+display: grid; 
+grid-template-columns: 1fr; 
+grid-template-rows: 1fr 1fr ; 
+gap: 0px 0px; 
+grid-template-areas: 
+"header1"
+"header2"; 
+}
+
+header h1{
+grid-area: header1;
+margin: 10px auto;
+font-size: 20px;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+head h2{
+grid-area: header2;
+margin: 20px auto;
+font-size: 15px;
+font-weight: bold;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+main {
+display: grid; 
+grid-template-columns: 1fr ; 
+grid-template-rows: 1fr 1fr 1fr; 
+gap: 0px 0px; 
+grid-template-areas: 
+"card1"
+"card2"
+"card3"; 
+}
+
+main{
+  margin:10px auto;
+  width:300px;
+}
+
+.card{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+border-top-left-radius: 15px;
+border-top-right-radius: 20px;
+margin-top: 10px;
+}
+
+.card p{
+  margin:1em;
+  padding:1em
+}
+
+
+.card_header{
+background-color: slategrey;
+color: aliceblue;
+border-top-left-radius: 15px;
+border-top-right-radius: 20px;
+padding:5px;  
+font-size: large;
+}
+
+
+footer{
+margin-top:20px;
+border-radius: 10px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+} 
